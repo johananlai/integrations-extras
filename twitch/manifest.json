@@ -1,0 +1,23 @@
+{
+  "display_name": "Twitch",
+  "maintainer": "johanan.lai@datadoghq.com",
+  "manifest_version": "1.0.0",
+  "name": "twitch",
+  "metric_prefix": "twitch.",
+  "metric_to_check": "",
+  "creates_events": false,
+  "short_description": "",
+  "guid": "cb6e346c-0d84-4d49-a0cd-fef401aabb49",
+  "support": "contrib",
+  "supported_os": [
+    "linux",
+    "mac_os",
+    "windows"
+  ],
+  "public_title": "Datadog-Twitch Integration",
+  "categories": [
+    ""
+  ],
+  "type": "check",
+  "is_public": true
+}
