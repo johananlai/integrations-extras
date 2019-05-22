@@ -29,7 +29,7 @@ class TwitchtvCheck(AgentCheck):
 
         # send to DD
         try:
-            self._report_channel_metrics(instance, payload, tags)
+            self._report_channel_metrics(instance, follows)
         except Exception, e:
             self.log.error("Failed to report channel metrics with error: {}".format(e))
 
