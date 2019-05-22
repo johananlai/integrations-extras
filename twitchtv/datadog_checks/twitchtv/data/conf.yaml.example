@@ -1,0 +1,11 @@
+init_config:
+
+instances:
+  - api_url: https://api.twitch.tv/helix/
+    client_id: <CLIENT_ID>
+    channels:
+      - twitch
+      - twitchpresents
+    tags:
+      - from:agent
+    min_collection_interval: 120

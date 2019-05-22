@@ -1,0 +1,23 @@
+{
+  "display_name": "Twitchtv",
+  "maintainer": "johanan.lai@datadoghq.com",
+  "manifest_version": "1.0.0",
+  "name": "twitchtv",
+  "metric_prefix": "twitchtv.",
+  "metric_to_check": "",
+  "creates_events": false,
+  "short_description": "",
+  "guid": "7ff0b168-0cab-4825-9a8b-87343b73e5de",
+  "support": "contrib",
+  "supported_os": [
+    "linux",
+    "mac_os",
+    "windows"
+  ],
+  "public_title": "Datadog-Twitchtv Integration",
+  "categories": [
+    ""
+  ],
+  "type": "check",
+  "is_public": true
+}
